@@ -1,0 +1,28 @@
+{
+  "name": "jobnest",
+  "version": "1.0.0",
+  "description": "The Best place to find job.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     
+     "server":"cd server && nodemon start",
+     "client": "cd client && npm start",
+     "dev": "concurrently \"nodemon server\" \"npm rum client\""
+   
+  },
+  "author": "Kashif Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "middleware": "^1.0.0",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7",
+    "validator": "^13.6.0"
+  }
+}

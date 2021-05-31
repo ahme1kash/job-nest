@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+ 
+  
+}
+html, body {
+  max-width: 100%;
+  /* overflow-x: auto;
+  overflow-y: auto; */
+}
+
+.About{
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .myapp{
+  
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 78px;
+  color:red
+
+} */
+
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  /* background-image:url(background.jpg); */
+  
+  }
+  .sign-up-form{
+  
+  width:390px;
+  box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+  padding : 20px;
+  margin: 8% auto 0;
+  text-align:center;
+  height:640px;
+  }
+  
+  
+  .sign-up-form h1{
+  color:#1c8adb;
+  margin-bottom:-10px;
+  }
+  .input-box{
+  border-radius:20px;
+  padding:10px;
+  margin:10px 0;
+  width:100%;
+  border:1px solid #999;
+  outline:none;
+  }
+  button{
+  color:#fff;
+  width: 100%;
+  padding:10px;
+  border-radius:20px;
+  font-size:15px;
+  margin:10px 0;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  }
+  
+  
+  
+  a{
+  text-decoration:none}
+  
+  img{
+  width:70px;
+  margin-top:-50px;
+  }
+  
+  
